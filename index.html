@@ -6,10 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>survey form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="" id="survey-form">
+        <fieldset>
+            <fieldset>
+                <label for="" id="name-label">Name: <input type="text" name="" id="name" placeholder="name" required></label>
+                <label for="" id="email-label">Email: <input type="email" name="" id="email"i placeholder="email" required></label>
+                <label for="" id="number-label">Age: <input type="number" name="" id="number" min="13" max="140" placeholder="age" required></label>
+            </fieldset>
+            <fieldset>
+                <label>Which option best describe your interest: 
+                    <select id="dropdown">
+                      <option>select one</option>
+                      <option>Basket ball</option>
+                      <option>Table tennis</option>
+                      <option>Foot ball</option>
+                    </select>
+                  </label>
+            </fieldset>
+        </fieldset>
+    </form>
 </body>
 
 </html>

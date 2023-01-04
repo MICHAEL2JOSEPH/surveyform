@@ -12,25 +12,31 @@
 <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form action="" id="survey-form">
-        <fieldset>
-            <fieldset>
-                <label for="" id="name-label">Name: <input type="text" name="" id="name" placeholder="name" required></label>
-                <label for="" id="email-label">Email: <input type="email" name="" id="email"i placeholder="email" required></label>
-                <label for="" id="number-label">Age: <input type="number" name="" id="number" min="13" max="140" placeholder="age" required></label>
-            </fieldset>
-            <fieldset>
-                <label>Which option best describe your interest: 
-                    <select id="dropdown">
-                      <option>select one</option>
-                      <option>Basket ball</option>
-                      <option>Table tennis</option>
-                      <option>Foot ball</option>
-                    </select>
-                  </label>
-            </fieldset>
-        </fieldset>
-    </form>
 </body>
+<form action="" id="survey-form">
+    <fieldset>
+        <fieldset>
+            <label for="" id="name-label">Name: <input type="text" name="" id="name" placeholder="name" required></label>
+            <label for="" id="email-label">Email: <input type="email" name="" id="email"i placeholder="email" required></label>
+            <label for="" id="number-label">Age: <input type="number" name="" id="number" min="13" max="140" placeholder="age" required></label>
+        </fieldset>
+        <fieldset>
+            <label>Which option best describe your interest: 
+                <select id="dropdown">
+                  <option>select one</option>
+                  <option>Basket ball</option>
+                  <option>Table tennis</option>
+                  <option>Foot ball</option>
+                </select>
+              </label>
+        </fieldset>
+        <fieldset>
+            <label class="label">Would you recommend Survey Form to a friend?:</label>
+            <label><input type="radio" class="inline" name="friend" checked> yes</label>
+            <label><input type="radio" name="friend" class="inline"> Maybe</label>
+            <label><input type="radio" name="friend" class="inline"> No</label>
+        </fieldset>
+    </fieldset>
+</form>
 
 </html>

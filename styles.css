@@ -20,6 +20,7 @@ form {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.18);
     overflow: hidden;
+    border-radius: 9px;
 }
 
 fieldset {
@@ -37,4 +38,13 @@ select {
     margin: 5px 0;
     border-radius: 10px;
     outline: none;
+}
+
+.inline {
+    width: unset;
+    margin: 5px 0.5em 7px 0;
+}
+
+label {
+    display: block;
 }
